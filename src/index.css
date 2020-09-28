@@ -32,3 +32,6 @@ code {
 .wrapper .item button{
     background-color:#f1f1f1;
 }
+.done{
+  text-decoration: line-through;
+}
