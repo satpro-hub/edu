@@ -19,5 +19,16 @@ code {
   height: 300px;
   background-color: #f1f1f1;
   border:1pz solid grey;
+}
+.wrapper .item{
+ display: flex;
+ justify-content: space-between;
+ border: 1px solid grey;
+ border-radius: 5px;
+ padding: 5px;
+ margin-top: 5px;
+}
 
+.wrapper .item button{
+    background-color:#f1f1f1;
 }
