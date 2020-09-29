@@ -13,25 +13,64 @@ code {
 }
 
 .wrapper{
-  padding:20px;
   margin:30px auto;
-  width:600px;
-  height: 300px;
-  background-color: #f1f1f1;
-  border:1pz solid grey;
+  width:1200px;
+  display: flex;
+  justify-content: flex-start;
 }
-.wrapper .item{
+.edu-wrapper{
+  background-color: #f7f7f7;
+  border:1px solid grey;
+  padding:20px;
+  width: 50%;
+  position: relative;
+}
+.edu-wrapper .item{
  display: flex;
  justify-content: space-between;
  border: 1px solid grey;
+ background-color: white;
  border-radius: 5px;
  padding: 5px;
  margin-top: 5px;
 }
 
-.wrapper .item button{
-    background-color:#f1f1f1;
+.edu-wrapper .item .test{
+  white-space: nowrap;
+  width: 75%;
+  overflow-x: hidden;
 }
-.done{
+
+.edu-wrapper .item button{
+    background-color:#f1f1f1;
+    margin-left: 5px;
+}
+
+.edu-wrapper .item .done{
   text-decoration: line-through;
+}
+
+.arduino-wrapper{
+  position: relative;
+  background-color: #f1f1f1;
+  border:1px solid grey;
+  padding:20px;
+  width: 50%;
+}
+
+.arduino_list {
+  border: 1px solid grey;
+  background-color: white;
+  overflow-y: auto;
+   height: 240px;
+}
+
+.arduino_list .arduino_item{
+  margin-bottom: 1px;
+  padding: 2px 5px;
+
+}
+.arduino_list .arduino_item span{
+  font:400 12px Arial;
+  margin-right: 10px;
 }
